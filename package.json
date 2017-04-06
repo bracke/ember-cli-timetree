@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-timetree",
-  "version": "3.0.0",
+  "version": "0.1.0",
   "description": "Visualize hierarchical timeline data. Built with Ember.js and D3.js. Fork of ember-timetree.",
   "keywords": [
     "ember-addon"
@@ -30,9 +30,11 @@
     "ember-cli-htmlbars-inline-precompile": "^0.4.0-beta.2",
     "ember-cli-inject-live-reload": "^1.4.1",
     "ember-cli-qunit": "^3.1.2",
+    "ember-cli-release": "^1.0.0-beta.2",
     "ember-cli-shims": "^1.0.2",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^1.2.0",
+    "ember-cli-yuidoc": "^0.8.8",
     "ember-disable-prototype-extensions": "^1.1.0",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.6.0",
@@ -44,6 +46,9 @@
     "node": ">= 4"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "versionCompatibility": {
+      "ember": "2.5 || 2.6 || 2.7 || 2.8 || 2.9 || 2.10 || 2.11 || 2.12"
+    }
   }
 }
