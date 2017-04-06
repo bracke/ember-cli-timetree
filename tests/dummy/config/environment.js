@@ -47,7 +47,9 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.locationType = 'hash';
+    ENV.baseUrl = '/ember-cli-timetree/';
+    ENV.baseURL = '/bracke/ember-cli-timetree';
   }
 
   return ENV;

@@ -1,27 +1,27 @@
 # ember-cli-timetree
 
-This README outlines the details of collaborating on this Ember addon.
+[![Build Status](https://travis-ci.org//ember-cli-timetree.svg)](https://travis-ci.org//ember-cli-timetree)
+[![npm version](https://badge.fury.io/js/ember-cli-timetree.svg)](http://badge.fury.io/js/ember-cli-timetree)
+[![Code Climate](https://codeclimate.com/github//ember-cli-timetree/badges/gpa.svg)](https://codeclimate.com/github//ember-cli-timetree)
+[![Test Coverage](https://codeclimate.com/github//ember-cli-timetree/badges/coverage.svg)](https://codeclimate.com/github//ember-cli-timetree/coverage)
+[![Dependency Status](https://david-dm.org//ember-cli-timetree.svg)](https://david-dm.org//ember-cli-timetree)
+
+## Features
+
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-timetree`
-* `npm install`
-* `bower install`
+```
+ember install ember-cli-timetree
+```
 
-## Running
+## Helpful Links
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+- ### [Live Demo](http://.github.io/ember-cli-timetree)
 
-## Running Tests
+- ### [Changelog](CHANGELOG.md)
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+## Looking for help?
+If it is a bug [please open an issue on GitHub](http://github.com//ember-cli-timetree/issues).
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+## Usage

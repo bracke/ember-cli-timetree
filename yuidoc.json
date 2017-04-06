@@ -1,0 +1,25 @@
+{
+  "name": "ember-cli-timetree",
+  "description": "Visualize hierarchical timeline data. Built with Ember.js and D3.js. Fork of ember-timetree.",
+  "url": "http://github.com//ember-cli-timetree",
+  "options": {
+    "enabledEnvironments": ["production"],
+    "paths": [
+      "app",
+      "addon"
+    ],
+    "external": {
+      "data": [{
+        "base": "http://emberjs.com/api/",
+        "json": "http://builds.emberjs.com/tags/v2.4.0/ember-docs.json"
+      }]
+    },
+    "exclude": "vendor",
+    "outdir": "docs",
+    "linkNatives": true,
+    "quiet": true,
+    "parseOnly": false,
+    "lint": false,
+    "nocode": false
+  }
+}
